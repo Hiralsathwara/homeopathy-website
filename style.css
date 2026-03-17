@@ -1,0 +1,57 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  background: #ffffff;
+  color: #333;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 40px;
+  background: #2E7D32;
+  color: white;
+}
+
+nav a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: #F1F8F4;
+}
+
+.btn {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  /* background: #2E7D32; */
+  background: #2E7D32;
+  color: white;
+  text-decoration: none;
+}
+
+.whatsapp {
+  background: #25D366;
+}
+
+section {
+  padding: 60px 40px;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  padding: 20px;
+  background: #F1F8F4;
+  width: 150px;
+}
